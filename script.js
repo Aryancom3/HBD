@@ -22,4 +22,22 @@ function createHearts() {
   }
 }
 
-window.onload = createHearts;
+// Handle background music toggle
+document.addEventListener("DOMContentLoaded", function () {
+  createHearts(); // Run hearts when page loads
+
+  const bgMusic = document.getElementById("bgMusic");
+  const toggleBtn = document.getElementById("musicToggle");
+
+  if (toggleBtn && bgMusic) {
+    toggleBtn.addEventListener("click", function () {
+      if (bgMusic.paused) {
+        bgMusic.play();
+        toggleBtn.textContent = "Pause Music";
+      } else {
+        bgMusic.pause();
+        toggleBtn.textContent = "Play Music";
+      }
+    });
+  }
+});
