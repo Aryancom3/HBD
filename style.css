@@ -119,16 +119,19 @@ button:hover {
 }
 
 .voice-note h2 {
-  font-size: 1.6rem;
-  margin-bottom: 15px;
-  color: #f4c430;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
 }
 
 .voice-note audio {
-  width: 100%;
-  max-width: 400px;
-  outline: none;
-  border-radius: 8px;
+  width: 300px;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
 }
 
 .final-message {
