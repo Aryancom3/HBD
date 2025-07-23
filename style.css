@@ -105,23 +105,15 @@ button:hover {
 }
 
 .voice-note {
-  text-align: center;
-  padding: 40px 20px;
-  display: block;
-  opacity: 1;
-  z-index: 5;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
+text-align: center;
   margin: 40px auto;
-  max-width: 600px;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(6px);
+  max-width: 600px;  
 }
 
 .voice-note h2 {
-  font-size: 24px;
+  font-size: 2rem;
   margin-bottom: 10px;
-  color: #fff;
+  color: #ff77a9;
 }
 
 .voice-note audio {
