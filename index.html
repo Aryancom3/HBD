@@ -7,12 +7,17 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  
   <!-- Background Music -->
   <audio id="bgMusic" autoplay loop>
-    <source src="static/music/Ben_Howard_Promise_Piano_Cover.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-  </audio>
-
+  <source src="static/music/ben_promise_piano.mp3" type="audio/mp3">
+</audio> 
+  
+<!-- Background Music Button -->
+<div class="music-control">
+  <button id="musicToggle">Pause Music</button>
+</div>
+  
   <!-- Floating Hearts -->
   <div class="hearts-container"></div>
 
@@ -70,14 +75,14 @@
     <video src="static/videos/tanvi4.mp4" controls></video>
   </section>
 
-  <!-- Voice Note -->
-  <div class="voice-note">
-    <h2>Your Cute Voice:</h2>
-    <audio controls>
-      <source src="static/audio/Tanvi_voice_note.mp3" type="audio/mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
+  <!-- Voice Note Section -->
+<section class="voice-note">
+  <h2>Your cute voice</h2>
+  <audio controls>
+    <source src="static/audio/Tanvi_voice_note.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</section>
 
   <!-- Final Message -->
   <section class="final-message">
