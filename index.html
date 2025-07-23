@@ -8,14 +8,15 @@
 </head>
 <body>
   <!-- Background Music -->
-  <audio id="bgMusic" autoplay loop hidden preload="auto">
-    <source src="static/music/ben_promise_piano.mp3" type="audio/mp3">
+  <audio id="bgMusic" autoplay loop>
+    <source src="static/music/Ben_Howard_Promise_Piano_Cover.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
   </audio>
 
   <!-- Floating Hearts -->
   <div class="hearts-container"></div>
 
-  <!-- Glowing Heading -->
+  <!-- Main Heading -->
   <div class="main-content">
     <h1 class="glow-title">Happy Birthday Tanvi</h1>
     <p class="intro-text">
@@ -34,7 +35,7 @@
     <div class="row">
       <img src="static/images/tanvi3.jpg" alt="tanvi3">
       <img src="static/images/tanvi4.jpg" alt="tanvi4">
-      <img src="static/images/tanvi5.jpg" alt="tanvi5">  
+      <img src="static/images/tanvi5.jpg" alt="tanvi5">
     </div>
     <div class="row">
       <img src="static/images/tanvi6.jpg" alt="tanvi6">
@@ -62,16 +63,16 @@
   </div>
 
   <!-- Videos Section -->
-  <section class="video-section" id="videoSection" style="display: none;">
-    <video controls src="static/videos/tanvi1.mp4" preload="metadata"></video>
-    <video controls src="static/videos/tanvi2.mp4" preload="metadata"></video>
-    <video controls src="static/videos/tanvi3.mp4" preload="metadata"></video>
-    <video controls src="static/videos/tanvi4.mp4" preload="metadata"></video>
+  <section class="video-section" id="videoSection">
+    <video src="static/videos/tanvi1.mp4" controls></video>
+    <video src="static/videos/tanvi2.mp4" controls></video>
+    <video src="static/videos/tanvi3.mp4" controls></video>
+    <video src="static/videos/tanvi4.mp4" controls></video>
   </section>
 
   <!-- Voice Note -->
   <div class="voice-note">
-    <h2>Cute voice of you:</h2>
+    <h2>Your Cute Voice:</h2>
     <audio controls>
       <source src="static/audio/Tanvi_voice_note.mp3" type="audio/mp3">
       Your browser does not support the audio element.
@@ -81,18 +82,12 @@
   <!-- Final Message -->
   <section class="final-message">
     <p>
-      You’re not just special — you're the best thing that's happened to me.<br/>
+      You’re not just special, you’re the best thing that happened to me.<br/>
       Keep shining, laughing, and dreaming — because you’re magic.<br/>
       <strong>Happy Birthday Cutie ❤</strong>
     </p>
   </section>
 
-  <!-- Script -->
-  <script>
-    function toggleVideos() {
-      const videoSection = document.getElementById("videoSection");
-      videoSection.style.display = videoSection.style.display === "none" ? "block" : "none";
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
