@@ -1,92 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Happy Birthday Tanvi</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <!-- Background Music -->
-  <audio id="bgMusic" autoplay loop hidden>
-  <source src="./static/music/ben_promise_piano.mp3" type="audio/mp3">
+<!-- Background Music -->
+<audio id="bgMusic" autoplay loop hidden>
+  <source src="static/music/ben_promise_piano.mp3" type="audio/mp3">
 </audio>
 
-  <!-- Floating Hearts -->
-  <div class="hearts-container"></div>
-
-  <!-- Glowing Heading -->
-  <div class="main-content">
-    <h1 class="glow-title">Happy Birthday Tanvi</h1>
-    <p class="intro-text">
-      Today is the day the world got a little brighter.<br/>
-      Your smile, your heart, your eyes it all means so much.<br/>
-      Here's a small surprise, just for you.
-    </p>
+<!-- Image Grid -->
+<section class="image-grid">
+  <div class="row">
+    <img src="static/images/tanvi1.jpg" alt="tanvi1">
+    <img src="static/images/tanvi2.jpg" alt="tanvi2">
   </div>
-
-  <!-- Image Grid -->
-  <section class="image-grid">
-    <div class="row">
-      <img src="./static/images/tanvi1.jpg" alt="tanvi1">
-<img src="./static/images/tanvi2.jpg" alt="tanvi2">
-    </div>
-    <div class="row">
-    <img src="./static/images/tanvi3.jpg" alt="tanvi3">
-<img src="./static/images/tanvi4.jpg" alt="tanvi4">
-<img src="./static/images/tanvi5.jpg" alt="tanvi5">  
-    </div>
-    <div class="row">
-      <img src="./static/images/tanvi6.jpg" alt="tanvi6">
-<img src="./static/images/tanvi7.jpg" alt="tanvi7">
-<img src="./static/images/tanvi8.jpg" alt="tanvi8">
-    </div>
-  </section>
-
-  <!-- Poetic Message -->
-  <section class="poetic-section">
-    <p class="poem-line">You're a moonlight dressed in a whisper of lace,</p>
-    <p class="poem-line">A symphony sculpted in tender grace.</p>
-    <p class="poem-line">Eyes that speak in silent prose,</p>
-    <p class="poem-line">A muse the world in secret knows.</p>
-    <p class="message-text">
-      You’ve added color to so many lives,<br/>
-      and today, this is all about celebrating yours.<br/>
-      Sit back, play the music, and enjoy the moments captured just for you.
-    </p>
-  </section>
-
-  <!-- POOKIE's VIDEOS Button -->
-  <div class="button-container">
-    <button onclick="toggleVideos()">POOKIE's VIDEOS</button>
+  <div class="row">
+    <img src="static/images/tanvi3.jpg" alt="tanvi3">
+    <img src="static/images/tanvi4.jpg" alt="tanvi4">
+    <img src="static/images/tanvi5.jpg" alt="tanvi5">  
   </div>
+  <div class="row">
+    <img src="static/images/tanvi6.jpg" alt="tanvi6">
+    <img src="static/images/tanvi7.jpg" alt="tanvi7">
+    <img src="static/images/tanvi8.jpg" alt="tanvi8">
+  </div>
+</section>
 
-  <!-- Videos Section -->
-  <section class="video-section" id="videoSection">
-   <video controls src="./static/videos/tanvi1.mp4" width="100%" preload="metadata"></video>
-<video controls src="./static/videos/tanvi2.mp4" width="100%" preload="metadata"></video>
-<video controls src="./static/videos/tanvi3.mp4" width="100%" preload="metadata"></video>
-<video controls src="./static/videos/tanvi4.mp4" width="100%" preload="metadata"></video> 
-  </section>
+<!-- Videos Section -->
+<section class="video-section" id="videoSection">
+  <video controls src="static/videos/tanvi1.mp4" width="100%" preload="metadata"></video>
+  <video controls src="static/videos/tanvi2.mp4" width="100%" preload="metadata"></video>
+  <video controls src="static/videos/tanvi3.mp4" width="100%" preload="metadata"></video>
+  <video controls src="static/videos/tanvi4.mp4" width="100%" preload="metadata"></video>
+</section>
 
-  <!-- Voice Note -->
-  <div class="voice-note">
+<!-- Voice Note -->
+<div class="voice-note">
   <h2>Cute voice of you:</h2>
   <audio controls>
-  <source src="./static/audio/Tanvi_voice_note.mp3" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
+    <source src="static/audio/Tanvi_voice_note.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
 </div>
-
-  <!-- Final Message -->
-  <section class="final-message">
-    <p>
-      You’re not just special, you’re a best thing happen to me<br/>
-      Keep shining, laughing, and dreaming — because you’re magic.<br/>
-      <strong>Happy Birthday Cutie ❤</strong>
-    </p>
-  </section>
-
-  <script src="script.js"></script>
-</body>
-</html>
